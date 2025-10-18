@@ -315,6 +315,24 @@ export default function Graphics() {
         fill: false,
         pointRadius: 0,
       },
+      {
+        label: "USL (Límite Superior Especificación)",
+        data: Array(datos.means.length).fill(datos.usl),
+        borderColor: "#10B981",
+        borderDash: [5, 5],
+        borderWidth: 2.5,
+        fill: false,
+        pointRadius: 0,
+      },
+      {
+        label: "LSL (Límite Inferior Especificación)",
+        data: Array(datos.means.length).fill(datos.lsl),
+        borderColor: "#10B981",
+        borderDash: [5, 5],
+        borderWidth: 2.5,
+        fill: false,
+        pointRadius: 0,
+      }
     ],
   };
 
@@ -358,7 +376,7 @@ export default function Graphics() {
         borderWidth: 2.5,
         fill: false,
         pointRadius: 0,
-      },
+      }
     ],
   };
 
@@ -402,7 +420,7 @@ export default function Graphics() {
         borderWidth: 2.5,
         fill: false,
         pointRadius: 0,
-      },
+      }
     ],
   };
 
