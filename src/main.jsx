@@ -8,6 +8,7 @@ import EnterData from './pages/EnterData.jsx';
 import { DataProvider } from './context/DataContext.jsx';
 import Graphics from './pages/Graphics.jsx';
 import AIAnalysisTest from './pages/AIAnalysisTest.jsx';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 const router = createBrowserRouter([
